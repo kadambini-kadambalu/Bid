@@ -1,0 +1,163 @@
+/* ROOT FIX */
+#root {
+max-width:100%;
+margin:0;
+padding:0;
+text-align:left;
+}
+
+/* NAVBAR LINKS */
+
+.nav-menu a{
+color:white;
+text-decoration:none;
+margin-right:20px;
+font-weight:500;
+}
+
+.nav-menu a:hover{
+text-decoration:underline;
+}
+
+/* ========================= */
+/* MATCH SLIDER */
+/* ========================= */
+/* MATCH SLIDER */
+
+.match-slider{
+
+display:flex;
+flex-wrap:nowrap;
+overflow-x:auto;
+gap:15px;
+padding:15px;
+background:#ececec;
+
+}
+/* HIDE SCROLLBAR */
+
+.match-slider::-webkit-scrollbar{
+display:none;
+}
+
+/* ========================= */
+/* MATCH CARD */
+/* ========================= */
+
+.match-card{
+
+width:260px;
+flex-shrink:0;
+background:white;
+border-radius:6px;
+padding:12px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+
+}
+
+/* SERIES TITLE */
+
+.series{
+
+font-size:12px;
+color:#666;
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+
+}
+
+/* MATCH TYPE BADGE */
+
+.badge{
+
+background:#333;
+color:white;
+padding:3px 8px;
+border-radius:10px;
+font-size:11px;
+
+}
+
+/* TEAM ROW */
+
+.team-row{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:6px;
+font-size:14px;
+
+}
+
+/* SCORE */
+
+.score{
+
+font-weight:bold;
+
+}
+
+/* RESULT */
+
+.result{
+
+font-size:12px;
+color:#1a73e8;
+margin-top:6px;
+
+}
+
+/* MATCH LINKS */
+
+.match-links{
+
+margin-top:8px;
+font-size:11px;
+display:flex;
+gap:10px;
+color:#333;
+
+}
+
+/* ========================= */
+/* PAGE LAYOUT */
+/* ========================= */
+
+.page-container{
+
+display:grid;
+grid-template-columns: 1fr 2fr 1fr;
+gap:20px;
+padding:20px;
+
+}
+
+/* MAIN IMAGE */
+
+.main-image{
+
+width:100%;
+border-radius:6px;
+
+}
+
+/* VIDEO */
+
+.video-thumb{
+
+width:100%;
+border-radius:6px;
+
+}
+
+/* NEWS */
+
+.left-news p{
+
+border-bottom:1px solid #ddd;
+padding:10px 0;
+font-size:14px;
+
+}

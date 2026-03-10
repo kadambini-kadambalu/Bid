@@ -1,0 +1,99 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f1f1f1;
+}
+
+/* TOP NAVBAR */
+
+.top-navbar{
+background:#009270;
+color:white;
+display:flex;
+align-items:center;
+padding:10px 25px;
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+margin-right:40px;
+}
+
+.logo-bold{
+font-weight:900;
+}
+
+.nav-menu a{
+margin-right:20px;
+cursor:pointer;
+}
+
+/* MATCH BAR */
+
+.match-bar{
+background:#3b3b3b;
+color:white;
+padding:10px;
+display:flex;
+gap:25px;
+font-size:14px;
+}
+
+/* MATCH CARDS */
+
+.match-card{
+background:white;
+border-radius:6px;
+padding:10px;
+width:230px;
+margin:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-row{
+display:flex;
+justify-content:space-between;
+margin-bottom:4px;
+}
+
+.match-result{
+color:#007c5c;
+font-size:13px;
+margin-top:6px;
+}
+
+/* PAGE LAYOUT */
+
+.page-container{
+display:grid;
+grid-template-columns: 1fr 2fr 1fr;
+gap:20px;
+padding:20px;
+}
+
+/* NEWS */
+
+.section-title{
+color:#007c5c;
+}
+
+.left-news p{
+border-bottom:1px solid #ddd;
+padding:10px 0;
+font-size:14px;
+}
+
+/* MAIN NEWS */
+
+.main-image{
+width:100%;
+border-radius:5px;
+}
+
+/* VIDEOS */
+
+.video-thumb{
+width:100%;
+border-radius:5px;
+}
