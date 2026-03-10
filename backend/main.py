@@ -19,7 +19,7 @@ def start_auction(item: str, price: int):
     db: Session = get_db()
 
     auction = Auction(
-        item=item,
+        item=item, 
         current_price=price,
         highest_bidder="None"
     )
